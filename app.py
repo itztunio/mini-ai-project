@@ -29,7 +29,6 @@ except Exception:
 
 if not default_api_key:
     default_api_key = os.getenv("GEMINI_API_KEY", "").strip()
-
 if default_api_key == "your_api_key_here":
     default_api_key = ""
 
