@@ -121,4 +121,4 @@ if generate_button:
 
         except Exception as e:
             st.error(f"❌ Error generating response: {e}")
-            st.info("Tip: If a model reaches quota limit, try switching the model in the sidebar.")
+            st.info("Tip: If a smodel reaches quota limit, try switching the model in the sidebar.")
